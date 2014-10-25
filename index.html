@@ -1,6 +1,12 @@
 <head>
     <!-- Modo 1: Archivo externo -->
-    <link type="text/css" rel="stylesheet" href="estilos.css"/>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!-- Tema opcional -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Modo 2: Incluido en el head -->
     <style type="text/css">
         p{
@@ -10,6 +16,38 @@
 </head>
 
 <body>
-    <!-- Modo 3: En el mismo elemento -->
-    <p style="color: blue">Esto se verá de color azul</p>
-</body>
+    
+    <nav class="navbar navbar-default" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar">k</span>
+      <span class="icon-bar">k</span>
+      <span class="icon-bar">k</span>
+    </button>
+    <a class="navbar-brand" href="#">Logotipo</a>
+  </div>
+ 
+  <!-- Barra de navegacion a modificiar mas starde -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Enlace #1</a></li>
+      <li><a href="#">Enlace #2</a></li>
+      
+    </ul>
+ 
+   
+ 
+    
+  </div>
+</nav>
+
+<div class="row" >
+  <div class="col-md-8" style="background-color: blue">Pantala principal</div>
+  <div class="col-md-4" style="background-color: red">menu de opciones</div>
+</div>
+
+    </body>
